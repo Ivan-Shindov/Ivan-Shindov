@@ -1,6 +1,7 @@
  ### Hi there 👋
    /*  This is a short info about me. */
-
+   
+```java
 @Component
 public class HelloGit👋  implements AboutMe {
 
@@ -50,3 +51,4 @@ public class HelloGit👋  implements AboutMe {
     return "Thank you!";
    }
 }
+```
