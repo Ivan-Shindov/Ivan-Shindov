@@ -9,46 +9,47 @@ public class HelloGit👋 {
    private String name = "Ivan Shindov";
    
    @Min(1)
-   private byte age = 23;
+   private byte age = 28;
    
    private String address = "Sofia, Bulgaria";
    
    @NotNull
-   private String currentJobTitle = "Reception administrator";
+   private String currentJobTitle = "Java Backend Developer";
    
    @NotNull
    private String educationalInstitution = "Software University"
   
   
 👨‍🎓 public String education() {
-    return "Almost graduate with bachelor degree from National Sport Academy at Sofia, with specialty - Kinesiotherapy.";
+    return "Almost graduate with bachelor degree from National Sport Academy at Sofia, with specialty - Kinesiotherapy. 
+            Professional Certificate in Java Web Development from Software University";
    }
    
    
 🖥 public String experience() {
-    return "A little experience mainly communication with different types of people. Around two years experience with programming basically in Java";
+    return "5+ years of experience building distributed microservices for sports betting and online casino platforms. Develops a multi-tenant casino aggregator integrating 20+ game providers";
    }
    
   
 🛠 public String skills() {
     return "Self-disciplined, purposeful, communicative, oriented towards goals achieving and results, taking responsibility "
-            + "trying to learn everything in details, team player, not so very creative :smile:";
+            + ",Problem solving and analytical thinking, root cause analysis, knowledge sharing";
    }
    
    
 🌎 public List<String> interests() {
-    return List.of("Java", "Spring", "MySQL", "a little JavaScript :smile:");
+    return List.of("Java", "Spring", "PostgreSQL", "ScyllaDB", "Redis", "k8s");
    }
 
     
   ℹ️ public void moreInfo() {
-     System.out.println("I like to gathering with friends in my free time and also write some code and learn new things :yum:");
+     System.out.println("Got an interesting opportunity or just want to talk code? Say hi, I don't byte :smile:");
     }
 
 
    @Override
 🏡 public String toString() {
-    return "Thank you!";
+    return "Thank you for your time!";
    }
 }
 ```
