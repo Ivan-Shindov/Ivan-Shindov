@@ -21,19 +21,22 @@ public class HelloGit👋 {
   
   
 👨‍🎓 public String education() {
-    return "Almost graduate with bachelor degree from National Sport Academy at Sofia, with specialty - Kinesiotherapy. 
+    return "Almost graduate with bachelor degree from National Sport Academy at Sofia - Kinesiotherapy. 
             Professional Certificate in Java Web Development from Software University";
    }
    
    
 🖥 public String experience() {
-    return "5+ years of experience building distributed microservices for sports betting and online casino platforms. Develops a multi-tenant casino aggregator integrating 20+ game providers";
+    return "5+ years of experience building distributed microservices for sports betting
+            and online casino platforms. Develops a multi-tenant
+            casino aggregator integrating 20+ game providers";
    }
    
   
 🛠 public String skills() {
-    return "Self-disciplined, purposeful, communicative, oriented towards goals achieving and results, taking responsibility "
-            + ",Problem solving and analytical thinking, root cause analysis, knowledge sharing";
+    return "Self-disciplined, purposeful, communicative,
+            oriented towards goals achieving and results, taking responsibility,
+            problem solving and analytical thinking, root cause analysis, knowledge sharing";
    }
    
    
@@ -43,7 +46,8 @@ public class HelloGit👋 {
 
     
   ℹ️ public void moreInfo() {
-     System.out.println("Got an interesting opportunity or just want to talk code? Say hi, I don't byte :smile:");
+     System.out.println("Got an interesting opportunity or just want to talk code ?
+                         Say hi, I don't byte :smile:");
     }
 
 
